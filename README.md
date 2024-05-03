@@ -44,6 +44,15 @@ The Resource Server exposes protected endpoints that require OAuth2 access token
 
 4. **Testing**
    - Unit tests are included for certain components to ensure functionality and security.
+5. **Working through Postman**
+    - Make the Authorization to Oauth2 in postman and enter the fields as:
+    - <img alt="img.png" height="500" src="img.png" width="1000"/>
+    - <img alt="img_1.png" height="500" src="img.png" width="1000"/>
+    - After entering all the field click <b>Get New Access Token</b>. Then the form login open and after successful sign in the consent page to get the access token and refresh token.
+    - <img alt="img_4.png" height="500" src="img.png" width="1000"/>
+    - <img alt="img_2.png" height="500" src="img.png" width="1000"/>
+    - <img alt="img_3.png" height="500" src="img.png" width="1000"/>
+6. Then use this access token to access <b>"/"</b> url in Resource Server.
 
 ## Author
 
