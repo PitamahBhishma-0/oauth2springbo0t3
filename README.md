@@ -47,11 +47,11 @@ The Resource Server exposes protected endpoints that require OAuth2 access token
 5. **Working through Postman**
     - Make the Authorization to Oauth2 in postman and enter the fields as:
     - <img alt="img.png" height="500" src="img.png" width="1000"/>
-    - <img alt="img_1.png" height="500" src="img.png" width="1000"/>
-    - After entering all the field click <b>Get New Access Token</b>. Then the form login open and after successful sign in the consent page to get the access token and refresh token.
-    - <img alt="img_4.png" height="500" src="img.png" width="1000"/>
-    - <img alt="img_2.png" height="500" src="img.png" width="1000"/>
-    - <img alt="img_3.png" height="500" src="img.png" width="1000"/>
+    - ![img_1.png](img_1.png)
+    - After entering all the field click <b>Get New Access Token</b>. Then the form login open and after successful sign in the consent page to get the access token and refresh token. 
+    - ![img_4.png](img_4.png)
+    - ![img_2.png](img_2.png)
+    - ![img_3.png](img_3.png)
 6. Then use this access token to access <b>"/"</b> url in Resource Server.
 
 ## Author
